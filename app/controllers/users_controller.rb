@@ -52,6 +52,16 @@ class UsersController < ApplicationController
     end
   end
 
+  # POST /users_ajax
+  def create_ajax
+    @user = User.new(params[:user])
+    if @user.save
+      render json: {'success' => true}
+    else
+      render json: {'success' => false}
+    end
+  end
+
   # PUT /users/1
   # PUT /users/1.json
   def update

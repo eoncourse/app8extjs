@@ -4,6 +4,8 @@ App8extjs::Application.routes.draw do
 
   get "sample" => "sample#index"
 
+  post "users_ajax" => "users#create_ajax"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
