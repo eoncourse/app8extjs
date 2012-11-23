@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Tom
+  email: tom@gug.cz
+  phone: +420 123 123 123
+
+two:
+  name: Steve
+  email: steve@apple.com
+  phone: +0 123 455 567

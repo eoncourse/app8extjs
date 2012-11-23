@@ -1,4 +1,9 @@
 App8extjs::Application.routes.draw do
+  resources :users
+
+
+  get "sample" => "sample#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
